@@ -1,6 +1,6 @@
-from AF.dfa import Dfa
-from AF.nfa import Nfa
-from AF.fa_interface import InterfaceFa
+from mypackage.dfa import Dfa
+from mypackage.nfa import Nfa
+from mypackage.fa_interface import InterfaceFa
 
 
 class Fa(InterfaceFa):

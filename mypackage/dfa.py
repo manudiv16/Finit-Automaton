@@ -5,8 +5,8 @@ from typing import Tuple, List, Union, Dict
 
 from PySimpleAutomata import automata_IO
 from os import path
-from AF.StateFa import StateFa
-from AF.fa_interface import InterfaceFa
+from mypackage.StateFa import StateFa
+from mypackage.fa_interface import InterfaceFa
 
 
 class Dfa(InterfaceFa):
